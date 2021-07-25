@@ -1,0 +1,143 @@
+$primary: #7b002c;
+@import "~bootstrap/scss/bootstrap";
+@import '~@fortawesome/fontawesome-free/css/all';
+
+body {
+    background-image: url("/images/lib.jpg");
+}
+
+.container {
+    background-color: rgba(248, 249, 250, 0.6);
+}
+
+.container .row .card {
+    background-color: rgba(248, 249, 250, 0.6);
+}
+
+.form__social-icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form__social-icon:hover {
+    background-color: #7b002c;
+    border-color: #7b002c;
+    color: #eee;
+}
+
+.modal .form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.modal .form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px;
+}
+
+.modal .form-control {
+    height: 50px;
+    text-indent: 24px;
+}
+
+.modal .form__submit {
+    height: 50px;
+    font-size: 14px;
+}
+
+.library__book-close, .users__user-remove {
+    position: absolute;
+    font-size: 22px;
+    right: 5px;
+    top: -5px;
+    color: gray;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.library__book-edit, .users__user-edit {
+    position: absolute;
+    font-size: 16px;
+    right: 30px;
+    top: -1px;
+    color: gray;
+}
+
+.library__book-edit:hover, .users__user-edit:hover {
+    color: green;
+}
+
+.library__book-close:hover, .users__user-remove:hover {
+    color: red;
+}
+
+.book, .profile {
+    position: relative;
+}
+
+.modification .modification__form .modification__input {
+    display: block;
+}
+
+.library .library__book .library__card .library__card-title {
+    min-height: 80px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.library .library__book .library__card-desc {
+    list-style: none;
+}
+
+.library .library__book .library__card-desc .card__item {
+    height: 225px;
+    overflow: hidden;
+}
+
+.library__pagination .pagination {
+    justify-content: center;
+}
+
+[scope="col"] > a {
+    cursor: pointer;
+}
+
+.reset__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reset .form-input {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.reset .form-input i {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 10px;
+}
+
+.reset .form-control {
+    height: 50px;
+    text-indent: 24px;
+}
+
+.reset .form__submit {
+    height: 50px;
+    font-size: 14px;
+}
